@@ -37,7 +37,7 @@ adf_client = DataFactoryManagementClient(
 # %%
 rg_params = {'location' : 'australiaeast'}
 df_params = {'location' : 'australiaeast'}
-adf_resource =Factory(location='australiaeast')
+adf_resource = Factory(location='australiaeast')
 adf = adf_client.factories.create_or_update(
     factory_name=adfname,
     resource_group_name=rgname,
